@@ -1,0 +1,265 @@
+*{
+    margin                  : 0px;
+}
+html{
+    scroll-behavior         : smooth;
+}
+#container{
+    width                   :100%;
+    
+}
+/* Style the links inside the sidenav */
+#mySidenav a {
+    z-index         : 1000;
+    position: fixed; /* Position them relative to the browser window */
+    left: -100px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: black; /* White text color */
+    border-radius: 0 10px 10px 0; /* Rounded corners on the top right and bottom right side */
+    border: 1px solid black;
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a background */
+#home {
+    top: 20px;
+    background-color : white;
+}
+#hcs {
+    top: 80px;
+    background-color : #F6F9F8;
+}
+
+#git {
+    top: 140px;
+    background-color        : #D9F2F7;
+}
+
+#javaS {
+    top: 200px;
+    background-color        : #FFF1A3;
+}
+
+#java {
+    top: 260px;
+    background-color        : #F0FAFA;
+}
+#python {
+    top: 320px;
+    background-color        : #4281AA;
+}
+#about {
+    top                     : 380px;
+    background-color        : gray;
+}
+
+#windows{
+    font-size: 2em;
+}
+/* 
+======================================
+   this is the Home page
+======================================
+*/
+#H{
+    /* background-image        : url() */
+    
+    /* background-color        : black; */
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;  
+}
+
+/* 
+======================================
+   this is the Html&Css html page
+======================================
+*/
+#HC{
+    background-color        :  #F6F9F8;
+    /* background-image        : linear-gradient (to bottom, #F6F9F8, #D9F2F7); */
+    width                   : 100%;
+    height                  : 1200px;
+    /* background-size         : cover;   */
+}
+/*  
+======================================
+    this is the GitHub html page
+======================================
+*/
+
+.overlay {
+    background: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    opacity: .5;
+}
+.visible {
+    background: #C8E1E6;
+    position: fixed;
+    margin-top: 31px;
+    overflow: auto;
+    z-index: 2000;
+    width: 90%;
+    height: 90%;
+    margin-left: 55px;
+}
+
+.visible:hover{
+    overflow: auto;
+}
+.first:hover ,#second:hover,#third:hover,.four:hover,#five:hover{
+    /* overflow-y: scroll; */
+    z-index: 3000;
+    position: relative;
+    /* width: 100px;
+    height: 100px; */
+    transform: translateY(-20px) scale(1,1);
+}
+.firs{
+    overflow                : hidden;
+    border-radius           : 15px;
+    float                   : left;
+    /* position                : fixed; */
+    margin                  : 5px;
+    /* display                 : inline-block; */
+    weight                  : 33%;
+    background-color        : #FFF;
+}
+
+
+.first{
+    overflow                : hidden;
+    border-radius           : 15px;
+    float                   : left;
+    position                : relative;
+    margin                  : 15px;
+    /* display                 : inline-block; */
+    width                   : 45%;
+    height                  : 45%;
+    background-color        : #FFF;
+}
+#second{
+    overflow                : hidden;
+    border-radius           : 15px;
+    float                   : left;
+    position                : relative;
+    margin                  : 15px;
+    /* display                 : inline-block; */
+    height                  : 45%;
+    width                   : 45%;
+    background-color        : white;
+}
+#third{
+    overflow                : hidden;
+    border-radius           : 15px;
+    margin: 15px;
+    float                   : left;
+    position                : relative;
+    /* display                 : inline-block; */
+    width                   : 45%;
+    height                  : 45%;
+    background-color        : #DDD;
+}
+.four{
+    overflow                : hidden;
+    border-radius           : 15px;
+    margin                  : 15px;
+    float                   : left;
+    position                : relative;
+    /* display                 : inline-block; */
+    width                   : 45%;
+    height                  : 45%;
+    background-color        : #CCC;
+}
+
+.titl{
+    font-size: 1.4em;
+    background-color: #4281AA;
+}
+#img4{
+
+    float: left;
+}
+#secwin .text{
+    margin: 14px 13px 13px 517px;
+
+}
+.text{
+    background-color: #D9F2F7;
+    text-align: left;
+    /* margin: 14px 13px 13px 517px; */
+}
+#GH{
+    background-color        : #D9F2F7;
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;
+    padding                 : 30px;
+    font-size               : 1.4em;
+   }
+/*
+======================================
+  this is the JavaScript html page
+======================================
+*/
+#JS{
+    /* background-image        : linear-gradient(to bottom,#FFF1A3,#F0FAFA); */
+    
+    background-color        : #FFF1A3;
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;  
+}
+/*
+======================================
+      this is the JAVA html page
+======================================
+*/
+#J{
+    /* background-image        : linear-gradient(to bottom,#F0FAFA,#4281AA); */
+    
+    background-color        : #F0FAFA;
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;  
+}
+/*
+======================================
+    this is the Python html page
+======================================
+*/
+#P{
+    background-image        : linear-gradient(to bottom, #4281AA, #F6F9F8);
+    
+    /* background-color        : #4281AA; */
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;  
+}
+
+/* 
+======================================
+   this is About us html page
+======================================
+*/
+#AU{
+    /* background-image        : linear-gradient(to bottom, #4281AA, #F6F9F8); */
+    
+    background-color        :  #F6F9F8;
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;  
+}
+

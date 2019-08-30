@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+        <div id="mySidenav" class="sidenav">
+                <a href="#H" id="home">Home</a>
+                <a href="#HC" id="hcs">Html&Css</a>
+                <a href="#GH" id="git">GitHub</a>
+                <a href="#JS" id="javaS">JavaScript</a>
+                <a href="#J" id="java">Java</a>
+                <a href="#P" id="python">Python</a>
+                <a href="#AU" id="about">About us</a>
+        </div>
+        <div id="windows">
+            <div id="win" style="display:none;">
+                <a href="#first" onClick="getElementById('win').style.display='none';"> <div class="overlay"></div></a>
+                <div class="visible">
+                <div class="firs" width="100%" height="100%">
+                <h2 class="titl"><strong>Step 1. Create a Repository</strong></h2>
+            
+                <img id="img0" src="img/git/create-new-repo.png" width="100%" alt="this is how to create new repository ">
+                <div class="text">
+                   
+                    A repository is usually used to organize a single project. 
+                   Repositories can contain folders and files, images, videos, spreadsheets, 
+                   and data sets – anything your project needs. We recommend including a README, 
+                   or a file with information about your project. GitHub makes it easy to 
+                   add one at the same time you create your new repository. It also offers 
+                   other common options such as a license file.
+   
+                   Your hello-world repository can be a place where you store ideas, resources, 
+                   or even share and discuss things with others.
+                   
+                   <ol >   To create a new repository
+                   <li > In the upper right corner, next to your avatar or identicon, click  and then select New repository.</li>
+                   <li >Name your repository</li>
+                   <li >Write a short description.</li>
+                   <li >Select Initialize this repository with a README.</li>
+                </ol><br>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div id="secwin" style="display:none;">
+                    <a href="#second" onClick="getElementById('secwin').style.display='none';"> <div class="overlay"></div></a>
+                    <div class="visible">
+                    <div class="firs" width="100%" height="100%">
+                    <img id="img4" src="img/git/readme-edits.gif" alt="this is branch">
+                    <div class="text">
+                        <h2 class="titl"><strong>Step 2. Create a Branch </strong></h2>
+                        <br>
+                        Branching is the way to work on different versions of a repository at one time.
+                        By default your repository has one branch named master which is considered to be the definitive branch.
+                        We use branches to experiment and make edits before committing them to master.
+                        When you create a branch off the master branch, 
+                        you’re making a copy, or snapshot, 
+                        of master as it was at that point in time. 
+                        If someone else made changes to the master branch while you were working on your branch, 
+                        you could pull in those updates.
+                        <ol>This diagram shows:
+                            <li>The master branch</li>
+                            <li>A new branch called feature (because we’re doing ‘feature work’ on this branch)</li>
+                            <li>The journey that feature takes before it’s merged into master</li>
+                        </ol>
+                    </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <img  src="img//git/branching.png" width="97%" alt="">
+                    </div>
+                    </div>
+            </div>
+            <div id="thirdwin" style="display:none;">
+                <a href="#third" onClick="getElementById('thirdwin').style.display='none';"> <div class="overlay"></div></a>
+                <div class="visible">
+                <div class="firs" width="100%" height="100%">
+                
+                <h2 class="titl"><strong>Step 2. Create a Branch </strong></h2>
+                           <strong style="background-color: grey"> Step 3. Make and commit changes </strong>
+                <img id="img3"height="100%" width="100%" src="img/git/commit.png" alt="">
+                <br>
+                <div class="text">
+                Bravo! Now, you’re on the code view for your readme-edits branch, which is a copy of master. Let’s make some edits.
+                On GitHub, saved changes are called commits. Each commit has an associated commit message, which is a description explaining why a particular change was made. Commit messages capture the history of your changes, so other contributors can understand what you’ve done and why.
+                Make and commit changes
+                Click the README.md file.
+                Click the  pencil icon in the upper right corner of the file view to edit.
+                In the editor, write a bit about yourself.
+                Write a commit message that describes your changes.
+                Click Commit changes button.
+                commit
+                These changes will be made to just the README file on your readme-edits branch, so now this branch contains content that’s different from master
+                </div>
+                <img src="img/git/change_git.png" width="90%" alt="">.
+                <div class="text">
+                <ol>
+                    <li>Click the Commit button at the top to commit the file.</li>
+                    <li>In the message box, enter a commit message.</li>
+                    <li>Click the Commit button under the box. You can now see your change under the History tab.</li>
+                    <li>From Sourcetree, click the Push button to push your committed changes.</li>
+                    <li> Under the Push? column from the dialog box that appears, select the branch where you want to push the change and click OK</li>. 
+                </ol>     
+                </div>
+                <img src="img/git/push_git.png" width="90%" alt="">       
+            </div>
+            </div>
+            </div>
+            <div id="fourwin" style="display:none;">
+                <a href="#four" onClick="getElementById('fourwin').style.display='none';"> <div class="overlay"></div></a>
+                <div class="visible">
+                <div class="firs" width="100%" height="100%">
+                   <h1 class="titl"><strong> Step 3. Merge your Pull Request </strong></h1>
+                    <h2>Merge on GitHub</h2>
+                    <img id="img3"width="100%" src="img/git/merge-button.png" alt="">
+                    <img src="img/git/delete-button.png" width="100%" alt="">
+                    <div class="text">
+                        In this final step, it’s time to bring your changes together – merging your readme-edits branch into the master branch.
+                        Click the green Merge pull request button to merge the changes into master.
+                        Click Confirm merge.
+                        Go ahead and delete the branch, since its changes have been incorporated, with the Delete branch button in the purple box.
+                    </div>
+                    <h2>Merge in SourceTree</h2>
+                    <img src="img/git/merge_git (1).png" width="100%" alt="">
+                    <div class="text">
+                    <ol>  If a feature branch is behind master, you can sync that branch, using a merge, into your feature branch.
+                        <li> (On macOS) From the left-side menu, hover your mouse over the right side of the Branches label until you see the word Show. Click Show to expand the list of branches.</li>
+                        <li> Under Branches, double-click the feature branch that is behind to switch to that branch.</li>
+                        <li>Click the Merge button.</li>
+                        <li>From the popup that appears, select the commit you want to merge into your feature branch.</li>
+                        <li>Check the Create a commit even if merge resolved via fast-forward option at the bottom.</li>
+                        <li>Click OK.</li>
+                        <li>Your feature branch now has the same commits as your master branch.</li>
+                    </ol>
+                    </div>
+                    <img src="img/git/branch_last_git.png" width="95%" alt="">    
+                </div>
+                </div>
+            </div>
+        
+
+        </div>
+    <div id="H"></div>    
+    <div id="HC"></div>
+    <div id="GH">
+        <div class="four" onClick="getElementById('win').removeAttribute('style');">
+            <h2 class="titl"><strong>Step 1. Create a Repository</strong></h2>
+            <img src="img/git/create-new-repo.png" width="100%" height="100%" alt="this is how to create new repository ">
+        </div>
+        <div class="four" id="second" onClick="getElementById('secwin').removeAttribute('style');">
+            <h2 class="titl"><strong> Step 2. Create a Branch </strong></h2>
+            <img src="img/git/git_st_create_branches.png"  height="100%" width="100%" alt="this is branch">
+        </div>
+        <div class="four" id="third" onClick="getElementById('thirdwin').removeAttribute('style');">
+            <h2 class="titl"><strong> Step 3. Make and commit changes </strong></h2>
+            <img height="100%" width="100%" src="img/git/commit.png" alt="">
+        </div>
+        <div class="four" id="four" onClick="getElementById('fourwin').removeAttribute('style');">
+            <h2 class="titl" style="font-size: 1.4em;"><strong> Step 4. Merge your Pull Request </strong></h2>
+            <img src="img/git/merge-button.png"  width="100%" alt="">
+            <img src="img/git/merge_git.png"  width="100%" alt="">
+            </div>
+    </div>
+     
+    <div id="JS"></div>
+    <div id="J"></div>
+    <div id="P">
+
+
+        
+    </div>
+    <div id="AU"></div>
+</body>
+</html>

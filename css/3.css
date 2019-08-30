@@ -1,0 +1,93 @@
+
+#img1{
+    width: 623px;
+    height: 100%;
+}
+#img2{
+    width: 423px;
+    /* height: 100%; */
+    
+    display                 : block;
+    /* float                   : left; */
+    margin                  : 10px ;
+}
+#img{
+    width: 100%;
+    height: 100%;
+    display                 : block;
+    /* float                   : left; */
+    /* margin                  : 10px ; */
+}
+img:hover{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transform: translateX(20px) translateY(20px) scale(1,2);
+}
+.step1{
+    right: 100px;
+    /* margin                  : 15px; */
+}
+
+#first{
+    overflow                : auto;
+    border-radius           : 15px;
+    float                   : left;
+    position                : relative;
+    margin                  : 15px;
+    /* display                 : inline-block; */
+    width                   : 45%;
+    height                  : 33%;
+    background-color        : #FFF;
+}
+#second{
+    overflow                : auto;
+    border-radius           : 15px;
+    float                   : left;
+    position                : relative;
+    margin                  : 15px;
+    /* display                 : inline-block; */
+    height                  : 33%;
+    width                   : 45%;
+    background-color        : white;
+}
+#third{
+    border-radius           : 15px;
+    margin: 15px;
+    float                   : left;
+    position                : relative;
+    /* display                 : inline-block; */
+    width                   : 45%;
+    height                  : 33%;
+    background-color        : #DDD;
+}
+#four{
+    border-radius           : 15px;
+    margin                  : 15px;
+    float                   : left;
+    position                : relative;
+    /* display                 : inline-block; */
+    width                   : 45%;
+    height                  : 33%;
+    background-color        : #CCC;
+}
+#five{
+    border-radius           : 15px;
+    margin                  : 45px auto;
+    display                 : inline-block;
+    width                   : 90%;
+    height                  : 15%;
+    background-color        : #BBB;
+}
+#GH{
+    /* overflow: ; */
+    /* background-image        : linear-gradient(to bottom, #D9F2F7,#FFF1A3); */
+    background-color        : #D9F2F7;
+    width                   :100%;
+    height                  :1200px;
+    background-size         :cover;
+    padding                 : 30px;
+    font-size               : 1.25em;
+    /* display                 : block;
+    margin                  : px; */
+}
